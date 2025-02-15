@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #7d7b80;
+    color: #796c6c;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: #28b42d;
+    color: white;
+    padding: 25px;
+}
+
+h2 {
+    color: #4CAF50;
+}
+
+.container {
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgba(14, 78, 94, 0.589);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 90%; /* Cambiar a un porcentaje para mayor flexibilidad */
+    border-radius: 8px;
+}
+
+.logo {
+    display: block; /* Para centrarlo si es necesario */
+    margin: 0 auto; /* Centrar horizontalmente */
+    width: 100%; /* Cambiar a 100% para que sea responsivo */
+    max-width: 200px; /* Mantener un ancho máximo */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+audio, iframe {
+    width: 100%;
+    margin: 20px 0;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Media Queries para pantallas más grandes */
+@media (min-width: 768px) {
+    .container {
+        max-width: 750px; /* Ancho máximo para tabletas */
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px; /* Ancho máximo para computadoras de escritorio */
+    }
+}
